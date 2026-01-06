@@ -1,0 +1,18 @@
+[INFO] Starting contract deployment process...
+[INFO] Network: base-sepolia
+[INFO] ChainId: 84532
+[INFO] RPC: https://sepolia.base.org
+
+[INFO] Deploying contract src/Contract.sol:MyContract
+[INFO] Private key loaded and RPC configured.
+
+[DEBUG] Foundry command executed:
+forge create --rpc-url https://sepolia.base.org --private-key <PRIVATE_KEY> --chain-id 84532 src/Contract.sol:MyContract
+
+[INFO] Contract successfully deployed!
+[INFO] Deployed to: 0x3d2b423F7C8f72a95645faF9D70F317438A5553F
+[INFO] Transaction hash: 0xaabbccddeeff11223344...
+
+[INFO] Deployment completed on Base Sepolia.
+
+[DEBUG] Closing deployment process.
